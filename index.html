@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Selamat Ulang Tahun!</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <!-- Ganti [Nama] dengan nama yang berulang tahun -->
+      <h1>Selamat Ulang Tahun, Yulin!</h1>
+      <!-- Ganti [Umur] dengan umur yang berulang tahun -->
+      <h2>Selamat ulang tahun yang ke-24!</h2>
+
+      <div class="cake">
+        <div class="plate"></div>
+        <div class="layer layer-bottom"></div>
+        <div class="layer layer-middle"></div>
+        <div class="layer layer-top"></div>
+        <div class="icing"></div>
+        <div class="candle-container">
+          <div class="candle"><div class="flame"></div></div>
+          <div class="candle"><div class="flame"></div></div>
+          <div class="candle"><div class="flame"></div></div>
+          <div class="candle"><div class="flame"></div></div>
+          <div class="candle"><div class="flame"></div></div>
+        </div>
+      </div>
+
+      <button id="blow-candles-btn">Tiup Lilin</button>
+      <p id="wish-message" class="hidden">Semoga Semua Keinginanmu Terkabul!</p>
+    </div>
+
+    <canvas id="confetti-canvas"></canvas>
+
+    <!-- Ganti URL di src dengan link MP3 musik ulang tahun instrumental Anda -->
+    <audio id="birthday-song" src="https://cdn.pixabay.com/audio/2025/06/09/audio_50b8be7252.mp3" loop></audio>
+
+    <script src="script.js"></script>
+  </body>
+</html>
+
