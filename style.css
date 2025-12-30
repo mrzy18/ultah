@@ -392,14 +392,3 @@ h2 {
   }
 }
 
-@media (max-width: 2048px) {
-  body {
-    align-items: start;
-  }
-
-  .container {
-    height: 100vh;
-    padding-bottom: 20px;
-  }
-}
-
